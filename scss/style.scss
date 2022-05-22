@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+$font-family-sans-serif: 'Outfit', sans-serif;
+$primary : hsl(220, 15%, 55%);
+$secondary : hsl(218, 44%, 22%);
+$light : hsl(0, 0%, 100%);
+$info : hsl(212, 45%, 89%);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
